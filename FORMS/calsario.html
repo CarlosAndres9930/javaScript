@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular salario</title>
+
+</head>
+<body>
+    <h1>Calcular salario</h1>
+<!-- //formulario para calcular los datos -->
+<form id="formulario">
+    <!-- //campo para ingresar el nombre del trabajador -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br>
+    <!-- //campo para ingresar las horas trabajadas -->
+    <label for="horas">Horas trabajadas</label>
+    <input type="number" id="horas" placeholder="Horas" required><br>
+    <!-- //campo para ingresar el valor por hora -->
+    <label for="tarifa">Valor por horas</label>
+    <input type="number" id="tarifa" placeholder="Valor por hora" required><br>
+    <!-- //boton para enviar los datos -->
+    <button type="submit">Calcular salario</button>
+</form>
+<!-- //div para mostrar el resultado del calculo del salario -->
+<div id="resultado"></div>
+<script src="salcalsalario.js"></script>
+</body>
+</html>
