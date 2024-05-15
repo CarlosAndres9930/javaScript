@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoologicos</title>
+</head>
+<body>
+    <h3>Zoologico</h3>
+    <!-- formulario para ingresar datos del animal -->
+    <form id="formulario">
+    <!-- campo para ingresar la especie del animal -->
+        <label for ="especie">Especie: </label>
+        <input type="text" id="especie" required><br>
+        <!-- campo para ingresar el nombre del animal -->
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" required><br><br>
+        <!-- campo para ingresar la edad del animal -->
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad" required><br>
+        <!-- Campo para ingresar la dieta del animal -->
+        <label for="dieta">Dieta: </label>
+        <input type="text" id="dieta" required><br>
+        <!-- Boton para enviar el formulario-->
+        <button type="submit">Agregar Animal</button>
+    </form>
+
+    <!-- Div para mostrar el resultado del registro del animal  -->
+    <div id="resultado"></div>
+    <!-- enlace al archivo de js -->
+    <script src="salanim2.js"></script>
+
+
+
+
+</body>
+</html>
